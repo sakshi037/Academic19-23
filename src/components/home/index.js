@@ -38,7 +38,7 @@ const Home = ({ darkMode, setDarkMode, update }) => {
     const [found, setFound] = React.useState(true)
     const [showOut, setShowOut] = React.useState(false)
     const [branch, setbranch] = React.useState('Choose')
-    const [name, setname] = React.useState('')
+    const [name, setname] = React.useState('Juniors')
     const [brer, setbrer] = React.useState(false)
     const [load, setload] = React.useState(false)
     const [saved, setSaved] = useStickyState([], 'favourite')
